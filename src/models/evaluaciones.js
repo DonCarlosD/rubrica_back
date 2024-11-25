@@ -29,7 +29,7 @@ export const evaluacion=sequelize.define(
             }
         },
 
-        calificaion:{
+        calificacion:{
             type: DataTypes.DECIMAL(10,2),
             allowNull: false,
         },
@@ -38,7 +38,10 @@ export const evaluacion=sequelize.define(
         },
         observaciones:{
             type: DataTypes.STRING(100),
-        },  
+        },
+        juez:{
+            type: DataTypes.STRING(100),
+        }  
 
     },
     {
