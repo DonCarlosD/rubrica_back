@@ -1,2 +1,4 @@
 /insomnia-export.1732119639628
 /node_modules
+/.ENV
+.env
